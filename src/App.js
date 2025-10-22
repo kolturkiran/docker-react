@@ -1,12 +1,33 @@
-import { ReactComponent as logo } from './logo.svg';
+import logo from './logo.svg';
+import './App.css';
 
-
-// src/App.js
 function App() {
   return (
     <div className="App">
-      <h1>Hello Docker React!</h1>
-      <p>This text is changed again!</p>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <h3>Welcome to the Visit Counter App
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          Github Actions CI - Kishor Kumar S
+        </h3>
+
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
