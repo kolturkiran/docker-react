@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello Docker React!</h1>
-      <p>This text is changed!</p>
+      <p>This text is changed again!</p>
     </div>
   );
 }
